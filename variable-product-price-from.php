@@ -1,6 +1,6 @@
 <?php 
 /* ===============================================
-    Set variable price to only show from proice 
+    Set variable price to only show from price 
 =============================================== */
 
 add_filter('woocommerce_variable_price_html','ftf_shop_variable_product_price', 10, 2 );
