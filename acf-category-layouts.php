@@ -1,3 +1,8 @@
+<?php 
+/* ===============================================
+   ACF Flexible field loop for category / archive pages.  
+=============================================== */
+?>
 <div class="woocommerce_archive_layouts">
 <?php
   $term = get_queried_object();
