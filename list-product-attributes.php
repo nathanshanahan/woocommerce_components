@@ -1,4 +1,8 @@
 <?php 
+/* ===============================================
+    Output product attributes as an unordered list. 
+=============================================== */
+
 
 add_filter( 'woocommerce_before_single_product_summary', 'tft_list_product_attributes', 2 );
 function tft_list_product_attributes() {
